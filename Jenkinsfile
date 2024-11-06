@@ -11,7 +11,7 @@ pipeline {
     }
     stage("Sonar Analysis"){
       when {
-        branch "develop"
+        branch "main"
       }
       steps{
         echo "sonar analysis"
