@@ -3,7 +3,7 @@ pipeline {
   stages{
     stage("Maven Build"){
       when {
-        branch "develop"
+        branch "main"
       }
       steps{
         echo "maven package"
